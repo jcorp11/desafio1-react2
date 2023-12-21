@@ -1,0 +1,25 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  color: black;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* textarea {
+  width: 100%;
+  background-color: #fff;
+} */

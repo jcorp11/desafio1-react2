@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  /* flex-grow: 1; */
+  background-color: red;
+  height: fit-content;
+  padding: 15px 40px;
+}
+
+.nav1 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 0;
+}
+
+.nav2 {
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
