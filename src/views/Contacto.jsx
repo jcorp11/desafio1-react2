@@ -12,6 +12,7 @@ const Contacto = () => {
       <h1 className="mt-5">Cuentanos, ¿en que te podemos ayudar?</h1>
       <form onSubmit={handleSubmit} className="formContainer">
         <label htmlFor="email">Correo:</label>
+
         <section className="form-group mt-2">
           <input
             type="text"
@@ -24,6 +25,7 @@ const Contacto = () => {
         <label className="mt-3" htmlFor="description">
           Descripción
         </label>
+
         <section className="form-group mt-4">
           <textarea
             className="form-control"
